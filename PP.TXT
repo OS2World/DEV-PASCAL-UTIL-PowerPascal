@@ -1,0 +1,80 @@
+                             POWER PASCAL
+                       Preliminary Documentation
+                            April 23, 1993
+
+
+Version: 0.002 - Very crude, and simple.
+
+Copyright(C) 1993 Blue Star Systems, All rights reserved.
+
+Power Pascal is a fully 32-bit, native Pascal compiler for OS/2 2.0.
+It requires an 80386SX or compatible microprocessor, and OS/2 2.0,
+or subsequent versions, and Microsoft Assembler Version 6.0 (NOT 6.1!)
+
+Power Pascal was created specifically for OS/2 using MASM 6.0 and
+Turbo Pascal version 7.0.  Currently it generates a text-mode application
+which can be run either in a full screen or in a window.
+
+
+
+  What Pascal/2 CAN DO:
+
+    Simple Procedures  (No parameters, Up to 512)
+
+    Global Variables ( Up to 512 )
+
+    Byte, Integer, and Longint Variables
+
+    Limited String Constants
+
+    Write,WriteLn,Emit  ( Very simple OUTPUT routines )
+
+    Simple expressions
+
+    For loops
+
+    While loops
+
+    Until loops
+
+    If then else
+
+    Block Statements
+
+
+  What Pascal/2 CAN'T DO: (YET)
+
+    Local Variables (Stack Variables!)
+
+    Type definitions (VERY important)
+
+    Procedure of function Parameters (of ANY type)
+
+    GOTO & labels
+
+    Floating point math
+
+    Standard Library functions
+
+    Libraries, DDE's, etc.
+
+
+Current Goals:
+
+  Self compile,  Standalone generation of .EXE files, no matter how goofy
+
+
+WHERE TO SEND COMMENTS AND SUGGESTIONS:
+
+Mike Warot (ka9dgx) created Power Pascal and welcomes any comments,
+or suggestions about improving this product.  You may contact him
+via email over the Internet at:
+
+     ka9dgx@chinet.com
+
+or via USMail at:
+
+     Mike Warot
+     PO BOX 4043
+     Hammond, Indiana 46324
+
